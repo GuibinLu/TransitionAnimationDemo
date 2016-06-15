@@ -21,9 +21,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     private lazy var dataSource:[String] = {
-       return [ "0",
-                "1",
-                "2" ]
+       return [ "pushOne",
+                "present",
+                "presentOne" ]
     }()
     
     

@@ -21,8 +21,6 @@ class PresentedOneVC: UIViewController {
         (self.transitioningDelegate as! PresenteDelegate) .dismissInteractive = MyPercentInteractive(type: TransitionType.Dismiss, direction: Direction.Down, vc: self)
     }
 
-
-    
     override func viewDidAppear(animated: Bool) {
         self.textFWidth!.constant = 200.0
         UIView.animateWithDuration(0.3, delay: 0.0, options: .CurveEaseInOut, animations: { () -> Void in

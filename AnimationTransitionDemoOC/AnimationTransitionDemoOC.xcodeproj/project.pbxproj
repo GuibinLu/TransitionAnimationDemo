@@ -15,6 +15,7 @@
 		4DD1F6FF1D07FB880063F87E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD1F6FD1D07FB880063F87E /* LaunchScreen.storyboard */; };
 		4DD1F70A1D07FB880063F87E /* AnimationTransitionDemoOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1F7091D07FB880063F87E /* AnimationTransitionDemoOCTests.m */; };
 		4DD1F7151D07FB880063F87E /* AnimationTransitionDemoOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1F7141D07FB880063F87E /* AnimationTransitionDemoOCUITests.m */; };
+		4DD1F7241D07FC560063F87E /* CustomAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1F7231D07FC560063F87E /* CustomAnimationTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4DD1F7101D07FB880063F87E /* AnimationTransitionDemoOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationTransitionDemoOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD1F7141D07FB880063F87E /* AnimationTransitionDemoOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTransitionDemoOCUITests.m; sourceTree = "<group>"; };
 		4DD1F7161D07FB880063F87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD1F7221D07FC560063F87E /* CustomAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationTransition.h; sourceTree = "<group>"; };
+		4DD1F7231D07FC560063F87E /* CustomAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				4DD1F6F31D07FB880063F87E /* AppDelegate.m */,
 				4DD1F6F51D07FB880063F87E /* ViewController.h */,
 				4DD1F6F61D07FB880063F87E /* ViewController.m */,
+				4DD1F7221D07FC560063F87E /* CustomAnimationTransition.h */,
+				4DD1F7231D07FC560063F87E /* CustomAnimationTransition.m */,
 				4DD1F6F81D07FB880063F87E /* Main.storyboard */,
 				4DD1F6FB1D07FB880063F87E /* Assets.xcassets */,
 				4DD1F6FD1D07FB880063F87E /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD1F7241D07FC560063F87E /* CustomAnimationTransition.m in Sources */,
 				4DD1F6F71D07FB880063F87E /* ViewController.m in Sources */,
 				4DD1F6F41D07FB880063F87E /* AppDelegate.m in Sources */,
 				4DD1F6F11D07FB880063F87E /* main.m in Sources */,

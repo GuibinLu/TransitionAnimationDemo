@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CustomAnimationTransition : NSObject
+#import <UIKit/UIKit.h>
+
+@interface CustomAnimationTransition : NSObject<UIViewControllerAnimatedTransitioning>
+
+
 
 @end

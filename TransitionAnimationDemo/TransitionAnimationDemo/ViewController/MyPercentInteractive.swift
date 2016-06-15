@@ -38,7 +38,7 @@ class MyPercentInteractive: UIPercentDrivenInteractiveTransition {
     }
     
     func addPan(view :UIView) {
-        let pan = UIPanGestureRecognizer(target: self, action: "pan:")
+        let pan = UIPanGestureRecognizer(target: self, action: #selector(MyPercentInteractive.pan(_:)))
         view.addGestureRecognizer(pan)
     }
     
@@ -90,6 +90,7 @@ class MyPercentInteractive: UIPercentDrivenInteractiveTransition {
     func startTransition() {
         switch type {
         case .Presente, .Push :
+            
             if  let closure = config {
                 closure()
             }

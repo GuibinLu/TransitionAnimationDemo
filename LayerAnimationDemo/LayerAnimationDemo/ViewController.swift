@@ -17,7 +17,7 @@ class ViewController: UIViewController {
        let layer = CAShapeLayer()
         layer.contentsScale = UIScreen.mainScreen().scale
         layer.fillColor = UIColor.whiteColor().CGColor
-        let bezier = UIBezierPath(ovalInRect: CGRect(x: -50, y:-50, width: 500, height: 600))
+        let bezier = UIBezierPath(ovalInRect: CGRect(x: -200, y:-200, width: 1000, height: 1500))
         layer.path = bezier.CGPath
         layer.strokeColor = UIColor.blackColor().CGColor
         layer.borderWidth = 1.0
@@ -29,12 +29,12 @@ class ViewController: UIViewController {
         button.layer.masksToBounds = true
         button.layer.cornerRadius = 75.0
         bgView.layer.mask = maskLayer
-        testLayerAnimation()
+        //testLayerAnimation()
     }
 
     func testLayerAnimation() {
         b = !b
-        let bigPath = UIBezierPath(ovalInRect: CGRect(x: -50, y:-50, width: 500, height: 600))
+        let bigPath = UIBezierPath(ovalInRect: CGRect(x: -200, y:-200, width: 1000, height: 1500))
         let smallPath = UIBezierPath(ovalInRect: CGRect(x: 100, y: 100, width: 150, height: 150))
         
         maskLayer.path = b == true ? bigPath.CGPath : smallPath.CGPath

@@ -70,9 +70,11 @@ class CirclePushAnimationController: NSObject,UIViewControllerAnimatedTransition
     }
     
     private func reduceAnimation(toVC:UIViewController,fromeVC:UIViewController,containerView:UIView,transitionContext:UIViewControllerContextTransitioning) {
+        //这一点需要注意一下层级
         if transitionType == .NavTransitionPop {
             containerView.insertSubview(toVC.view, atIndex: 0)
         }
+        
         circleAniamtion(toVC, fromeVC: fromeVC, containerView: containerView, transitionContext: transitionContext)
     }
     
